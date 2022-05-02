@@ -43,7 +43,7 @@ class BinarySearchTree {
       if (node.data === data) return true;
       
 
-      if (node.data > node) it = findIt(node.left, data);
+      if (node.data > data) it = findIt(node.left, data);
         else it = findIt(node.right, data);
         return it
     }
